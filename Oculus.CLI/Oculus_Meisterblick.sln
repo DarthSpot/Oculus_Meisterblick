@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.CLI", "Oculus.CLI\Oculus.CLI.csproj", "{8D9C97DE-E67E-4574-BAA4-7C20E41296A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B627BCB5-5BB8-4CA2-B8AA-E83B58881B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Core", "Oculus.Core\Oculus.Core.csproj", "{F8712398-9F29-4A54-B088-F7A7DD9C12A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9C97DE-E67E-4574-BAA4-7C20E41296A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9C97DE-E67E-4574-BAA4-7C20E41296A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9C97DE-E67E-4574-BAA4-7C20E41296A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9C97DE-E67E-4574-BAA4-7C20E41296A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8712398-9F29-4A54-B088-F7A7DD9C12A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8712398-9F29-4A54-B088-F7A7DD9C12A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8712398-9F29-4A54-B088-F7A7DD9C12A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8712398-9F29-4A54-B088-F7A7DD9C12A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8712398-9F29-4A54-B088-F7A7DD9C12A3} = {B627BCB5-5BB8-4CA2-B8AA-E83B58881B6C}
+	EndGlobalSection
+EndGlobal
